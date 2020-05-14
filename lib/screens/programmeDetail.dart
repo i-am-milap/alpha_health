@@ -13,9 +13,7 @@ class ProgrammeDetail extends StatelessWidget {
       appBar: AppBar(
         elevation: 0.0,
         backgroundColor: Colors.transparent,
-        iconTheme: IconThemeData(
-          color: Colors.black,
-        ),
+        iconTheme: IconThemeData(color: Colors.black),
       ),
       body: Stack(
         fit: StackFit.expand,
@@ -33,63 +31,6 @@ class ProgrammeDetail extends StatelessWidget {
               ),
             ),
           ),
-          // Center(
-          //   child: Padding(
-          //     padding: const EdgeInsets.symmetric(horizontal: 24.0),
-          //     child: Card(
-          //       elevation: 4.5,
-          //       shape: RoundedRectangleBorder(
-          //         borderRadius: BorderRadius.circular(10.0),
-          //       ),
-          //       child: Container(
-          //         padding: const EdgeInsets.only(top: 16.0),
-          //         //   height: _deviceHeight / 2.3,
-          //         width: MediaQuery.of(context).size.width,
-          //         child: Column(
-          //           mainAxisSize: MainAxisSize.min,
-          //           children: <Widget>[
-          //             Text(data["programmeDuation"]),
-          //             SizedBox(height: 16.0),
-          //             Padding(
-          //               padding: const EdgeInsets.symmetric(horizontal: 16.0),
-          //               child: Text(
-          //                 data["heading"],
-          //                 textAlign: TextAlign.center,
-          //                 style: TextStyle(
-          //                   fontSize: 32.0,
-          //                 ),
-          //                 maxLines: 2,
-          //               ),
-          //             ),
-          //             SizedBox(height: 16.0),
-          //             Padding(
-          //               padding: const EdgeInsets.symmetric(horizontal: 16.0),
-          //               child: Text(
-          //                 "In this 7-day programme, we'll help you to write your  thoughts down, identify any negative thinking and ...  ",
-          //                 style: TextStyle(
-          //                   fontSize: 18.0,
-          //                 ),
-          //                 maxLines: 3,
-          //               ),
-          //             ),
-          //             SizedBox(height: 16.0),
-          //             Divider(
-          //               thickness: 0.5,
-          //               height: 0.5,
-          //             ),
-          //             FlatButton(
-          //               onPressed: () {},
-          //               child: Row(
-          //                 mainAxisAlignment: MainAxisAlignment.center,
-          //                 children: <Widget>[Text("Keep reading"), Icon(Icons.chevron_right)],
-          //               ),
-          //             )
-          //           ],
-          //         ),
-          //       ),
-          //     ),
-          //   ),
-          // ),
           Positioned(
             top: _deviceHeight / 3,
             left: 16,
@@ -101,7 +42,6 @@ class ProgrammeDetail extends StatelessWidget {
               ),
               child: Container(
                 padding: const EdgeInsets.only(top: 16.0),
-                //   height: _deviceHeight / 2.3,
                 width: MediaQuery.of(context).size.width,
                 child: Column(
                   mainAxisSize: MainAxisSize.min,
